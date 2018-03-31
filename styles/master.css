@@ -1,0 +1,83 @@
+body{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.9rem;
+  color: #fcfffc;
+}
+section{
+  padding: 60px 0px 60px 0px;
+  min-height: 100vh;
+}
+footer{
+  padding: 60px 0px 60px 0px;
+  min-height: 50vh;
+  background: #293235;
+  font-size: 3rem;
+  text-align: center;
+}
+#startScreen{
+  background-image: url(/images/background-photo-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#aboutMe{
+  background: #192c38;
+}
+#myProjects{
+  background: #6f7744;
+}
+h1, h2, .navbar{
+  font-family: 'Audiowide', cursive;
+}
+h2{
+  text-align: center;
+  text-shadow: 1px 1px black;
+  margin-bottom: 20px;
+}
+.navbar{
+  background: #040f0f;
+}
+.jumbotron{
+  background: rgba(252,255,252,0);
+  margin-top: 50px;
+  text-shadow: 1px 1px black;
+}
+.row div{
+  margin-bottom: 10px;
+}
+.card{
+  height: 100%;
+  background: rgba(252,255,252,0.5);
+  border: 2px solid rgba(252,255,252,0);
+}
+.card-text, .card-title{
+  color: #192c38;
+}
+.card-title{
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+}
+.card a{
+  text-decoration: none;
+}
+.card:hover{
+  background: rgba(252,255,252,1);
+  border: 2px solid rgba(252,255,252,0);
+}
+i{
+  color: #fcfffc;
+  opacity: 0.5
+}
+i:hover{
+  opacity: 1;
+}
+@media only screen and (min-width: 600px){
+  body{
+    font-size: 1rem;
+  }
+  .jumbotron{
+    color: #192c38;
+    text-shadow: 0px 0px black;
+    background: rgba(252,255,252,0.5);
+  }
+}
