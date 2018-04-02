@@ -15,6 +15,7 @@ footer{
   text-align: center;
 }
 #startScreen{
+  background: #293235;
   background-image: url(/images/background-photo-01.jpg);
   background-size: cover;
   background-repeat: no-repeat;
