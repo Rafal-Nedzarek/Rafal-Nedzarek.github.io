@@ -27,6 +27,14 @@ footer{
 #myProjects{
   background: #6f7744;
 }
+#skills{
+  padding-top: 30px;
+  font-weight: bold;
+  text-align: right;
+}
+#skills p{
+  text-align: left;
+}
 h1, h2, .navbar{
   font-family: 'Audiowide', cursive;
 }
@@ -65,11 +73,17 @@ h2{
   background: rgba(252,255,252,1);
   border: 2px solid rgba(252,255,252,0);
 }
-i{
+.far{
+  opacity: 0.5;
+}
+.fa-heart{
+  letter-spacing: 2px;
+}
+a i{
   color: #fcfffc;
   opacity: 0.5
 }
-i:hover{
+a i:hover{
   opacity: 1;
 }
 @media only screen and (min-width: 600px){
