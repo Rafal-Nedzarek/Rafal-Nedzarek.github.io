@@ -41,7 +41,7 @@ h1, h2, .navbar{
 h2{
   text-align: center;
   text-shadow: 1px 1px black;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .navbar{
   background: #040f0f;
@@ -54,30 +54,14 @@ h2{
 .row div{
   margin-bottom: 10px;
 }
-.card{
-  height: 100%;
-  background: rgba(252,255,252,0.5);
-  border: 2px solid rgba(252,255,252,0);
-}
-.card-text, .card-title{
-  color: #192c38;
-}
-.card-title{
-  text-align: center;
-  font-family: 'Audiowide', cursive;
-}
-.card a{
-  text-decoration: none;
-}
-.card:hover{
-  background: rgba(252,255,252,1);
-  border: 2px solid rgba(252,255,252,0);
-}
 .far{
   opacity: 0.5;
 }
-.fa-heart{
-  letter-spacing: 2px;
+a{
+  color: #ffa803;
+}
+a:hover{
+  color: #ffa803;
 }
 a i{
   color: #fcfffc;
